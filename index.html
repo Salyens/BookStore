@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <script
+      src="https://kit.fontawesome.com/6fa41642b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>BookStore</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" id="home-page">
+        <span id="home-icon"><i class="fa-solid fa-book-open"></i></span>
+        <span id="home">BookStore</span>
+      </a>
+      <div id="search">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="  Search by title, keyword, author..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="nav-basket">
+        <img id="img-basket" src="./img/header/basket.png" alt="basket" />
+        <div id="basket-counter">
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="main-page">
+        <p>
+          Open new world with <br />
+          BookStore
+        </p>
+      </div>
+      <p id="most-popular">Most popular</p>
+      <div id="container"></div>
+      <div id="subscribe">
+        <span>Subscribe to get news about us:</span>
+        <form id="subscribe-form">
+          <input class="subscribe-cell" type="text" placeholder="Name" />
+          <input class="subscribe-cell" type="tel" placeholder="Phone number" />
+          <button class="subscribe-cell" id="subscribe-btn" type="submit">
+            Sign up
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-wrapper">
+        <a href="/" id="home-page-footer">
+          <span><i class="fa-solid fa-book-open"></i></span>
+          <span>BookStore</span>
+        </a>
+        <div id="contacts">
+          <span>Contacts</span>
+          <span>Tel: +995 5748899</span>
+          <span>Address: 20 Metekhi St, Tbilisi 0103 </span>
+        </div>
+        <div id="socials">
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-square-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/main.js" type="module"></script>
+  </body>
+</html>
