@@ -1,4 +1,4 @@
-# Project BookStore
+# BookStore. The last project
 - HTML 5
 - CSS
 - JS
