@@ -11,3 +11,7 @@ Technologies:
 - HTML
 - CSS
 
+
+Addition to the Project:
+- The project utilizes JSON server; you can launch it in the terminal with the command "json-server -w books.json"
+
