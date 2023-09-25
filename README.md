@@ -5,7 +5,6 @@ Main Features:
 - User Interaction: Users can view books, add them to the cart, and remove them from the cart.
 - Dynamic Search: Users can perform book searches using dynamic search functionality.
 - Local Storage: The cart items are stored in localStorage, allowing the cart state to be preserved even after a page reload.
-- Modern Technologies: The project is developed using modern technologies like JavaScript, HTML, and CSS.
 
 Technologies:
 - JavaScript
